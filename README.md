@@ -32,41 +32,41 @@ Driver ranking
 Performance reporting
 
 ## Dependencies
-# Core Requirements
+Core Requirements
 fastf1>=3.0.0
 scikit-learn>=1.0.0
 pandas>=1.3.0
 
-# Visualization
+Visualization
 matplotlib>=3.5.0
 seaborn>=0.11.0
 
-# Infrastructure
+Infrastructure
 python-dotenv>=0.19.0
 joblib>=1.1.0
 
 ## 📌 Future Improvements
-# Near-Term
+1-Near-Term
 Weather condition integration
 Pit stop strategy simulation
 Driver form tracking
-# Long-Term
+2-Long-Term
 Neural network approaches
 Real-time prediction engine
 Probabilistic outcome modeling
 
 ## 🔗 Project Attribution
 This prediction model builds upon the foundational work from @mar-antaya/2025_f1_predictions with significant enhancements:
-# Key Improvements Added:
+1-Key Improvements Added:
 Architecture Upgrade
 Implemented modular OOP design (DataProcessor, ModelTrainer, RacePredictor classes)
 Added configuration management system
 Introduced proper logging
-# Feature Expansion
+2-Feature Expansion
 Incorporated tire life metrics
 Added pit stop timing analysis
 Implemented weather data integration framework
-# Technical Advancements
+3-Technical Advancements
 Multi-model comparison system
 Automated hyperparameter tuning
 Model persistence with joblib
